@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Excers</title>
+  </head>
+
+  <body>
+  <form>
+    <div>
+      <label for="firstname">First Name</label>
+      <input 
+      type="text" 
+      name="firstname" 
+      id="firstname"
+      required="true" >
+      <label for="lastname">Last Name</label>
+      <input 
+      type="text" 
+      name="lastname" 
+      id="lastname"
+      required="true" >
+    </div>
+
+    <div>
+      <label for="male" >male</label>
+      <input 
+      type="radio" 
+      name="gander" 
+      value="male"
+      id="male">
+      <label for="female" >female</label>
+      <input 
+      type="radio" 
+      name="gander" 
+      value="female"
+      id="female">
+      <label for="other" >other</label>
+      <input 
+      type="radio" 
+      name="gander" 
+      value="other"
+      id="other">
+    </div>
+
+    <div>
+      <label for="email"> E-mail </label>
+      <input 
+      type="email" 
+      name="email"
+      placeholder="abc@example.com" 
+      id="email"
+      required="true">
+
+      <label for="password"> password </label>
+      <input 
+      type="password" 
+      id="password"
+      minlength="8" 
+      required="true">
+    </div>
+
+    <div>
+      <label>Birthday </label>
+      <select name="dob-day">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+      </select>
+
+      <select name="dob-month" >
+        <option value="01">January</option>
+        <option value="02">February</option>
+        <option value="03">March</option>
+        <option value="04">April</option>
+        <option value="05">May</option>
+        <option value="06">June</option>
+        <option value="07">July</option>
+        <option value="08">August</option>
+        <option value="09">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+
+      <select name="dob-year">
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+        <option>1994</option>
+        <option>1995</option>
+        <option>1996</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="agreement">
+      I agree to the terms and consitions
+      </label>
+      <input 
+      id="agreement" 
+      type="checkbox" 
+      name="conditions" 
+      value="agreed"
+      required="true">
+    </div>
+
+    <button>Go</button>
+  </form>
+  </body>
+</html>

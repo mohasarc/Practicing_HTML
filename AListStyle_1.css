@@ -1,0 +1,42 @@
+/*
+TRYING CHANGING ALL INSTANCES OF h1 USING HEXADECIMAL COLORS
+*/
+h1 {
+	color: #bc8e46;
+}
+
+/*
+TRYING CHANGING ALL INSTANCES OF h3 USING RGB COLORS
+*/
+h3 {
+	color: rgb(66,16,0);
+}
+
+/*
+	SELECTING AN ITEM BY ID
+*/
+
+#OLchair {
+	color: #8b9700;
+}
+
+#OLstarbocks {
+	color: #dfa90d;
+}
+
+#OLronaldo {
+	color: #b9d5fd;
+}
+
+/*
+	an item nested inside another item takes the color of
+	the parent unless specified otherwise
+*/
+
+ul {
+	color: black;
+}
+
+body {
+	background: #edeef2;
+}

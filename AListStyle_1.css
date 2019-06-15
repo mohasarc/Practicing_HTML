@@ -9,12 +9,15 @@ h1 {
 TRYING CHANGING ALL INSTANCES OF h3 USING RGB COLORS
 */
 h3 {
-	color: rgb(66,16,0);
+	color: rgba(66,16,0,0.8);
 }
 
 /*
 	SELECTING AN ITEM BY ID
 */
+#theEntireOListDiv {
+	background: rgba(255,255,255,0.3);
+}
 
 #OLchair {
 	color: #8b9700;
@@ -25,7 +28,7 @@ h3 {
 }
 
 #OLronaldo {
-	color: #b9d5fd;
+	color: rgb(077,077,200);
 }
 
 /*
@@ -37,6 +40,12 @@ ul {
 	color: black;
 }
 
+/*
 body {
 	background: #edeef2;
+}
+*/
+
+body {
+	background: url(background.jpg);
 }
